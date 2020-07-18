@@ -1,0 +1,28 @@
+
+#Git
+alias tree="git log --all --graph --decorate --oneline"
+alias gcd="git checkout develop"
+alias gcq="git checkout quality"
+alias gc="git checkout $1"
+alias gcb="git checkout -b $1"
+alias rmb="git branch -D $1"
+alias gs="git status"
+alias gcp="git cherry-pick $1"
+alias c="clear"
+alias gfo="git fetch origin"
+
+#Custom
+alias sudo="sudo "
+alias ll="ls -l"
+alias la="ls -la"
+alias cdc=$HOME/Code
+alias chr="google-chrome"
+alias cc="cat ~/Desktop/Accounts"
+alias pf="ps -e | grep $1"
+alias c="clear"
+alias zsh="source $HOME/.zshrc"
+alias uu="sudo apt-get update && sudo apt-get upgrade"
+alias c="clear"
+alias ~="cd ~"
+alias ..="cd .."
+alias ...="cd ../.."
