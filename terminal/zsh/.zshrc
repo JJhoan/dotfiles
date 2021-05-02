@@ -124,4 +124,9 @@ bindkey '^P' history-substring-search-up
 bindkey '^N' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
+
 # }}} End configuration added by Zim install
+
+#Command for reverse search
+zle -N _reverse_search
+bindkey '^r' _reverse_search

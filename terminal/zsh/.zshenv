@@ -1,5 +1,9 @@
 #Dotfiles Dir
 export DOTFILES_PATH=$HOME/.dotfiles
-# Define Zim location
-: ${ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim}
-# }}} End configuration added by Zim install
+
+#Go environment variable
+export GOPATH=/home/jjhoan/go
+export GOBIN=$GOPATH/bin
+export GOROOT=/usr/local/go
+
+export PATH=$PATH:$GOBIN:$GOROOT/bin
