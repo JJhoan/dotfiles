@@ -127,6 +127,14 @@ bindkey -M vicmd 'j' history-substring-search-down
 
 # }}} End configuration added by Zim install
 
-#Command for reverse search
-zle -N _reverse_search
-bindkey '^r' _reverse_search
+unalias -m '*'
+source $DOTFILES_PATH/terminal/init.sh
+source $DOTFILES_PATH/terminal/_functions/key-bindings.sh
+
+eval "$(starship init zsh)"
+
+
+### RANDOM COLOR SCRIPT ###
+# Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
+# Or install it from the Arch User Repository: shell-color-scripts
+colorscript random
