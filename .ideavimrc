@@ -1,0 +1,24 @@
+source ~/.vimrc
+
+let mapleader = " "ction ChooseDebugConfiguration
+
+map <leader>b :action GotoDeclaration<CR>
+map <leader>c :action $Copy<CR>
+map <leader>e :action RecentFiles<CR>
+map <leader>f :action Find<CR>
+map <leader>g :action GotoLine<CR>
+map <leader>h :action TypeHierarchy<CR>
+map <leader>i :action ImplementMethods<CR>
+map <leader>m :action EditorScrollToCenter<CR>
+map <leader>n :action FileChooser.NewFolder<CR>
+map <leader>o :action OverrideMethods<CR>
+map <leader>p :action ParameterInfo<CR>
+map <leader>q :action QuickJavaDoc<CR>
+map <leader>t :action Vcs.UpdateProject<CR>
+map <leader>u :action GotoSuperMethod<CR>
+map <leader>[ :action EditorCodeBlockStart<CR>
+map <leader>] :action EditorCodeBlockEnd<CR>
+map <leader>dd :action Debug<CR>
+map <leader>cd :action ChooseDebugConfiguration<CR>
+map <leader>rr :action Run<CR>
+map <leader>cr :action ChooseRunConfiguration<CR>
